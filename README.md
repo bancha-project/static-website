@@ -1,5 +1,7 @@
 # The Bancha project website
 
+https://bancha-project.firebaseapp.com
+
 # Setup
 
 ## Docker user
