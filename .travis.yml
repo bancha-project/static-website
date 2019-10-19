@@ -1,14 +1,18 @@
 language: node_js
 node_js:
-  - "12"
-#branches:
-#  only:
-#    - master
+  - 12.12.0
+install:
+  - npm install -g firebase-tools
+after_success:
+  - npm i -g firebase-ci
+  - firebase-ci deploy
+branches:
+  only:
+    - master
 script:
   - echo "Deploy"
 deploy:
   provider: firebase
   skip_cleanup: true
-  target_branch: master
   token:
     secure: $FIREBASE_TOKEN
