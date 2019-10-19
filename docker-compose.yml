@@ -6,6 +6,6 @@ services:
       - 5000:5000
       - 9005:9005
     volumes:
-      - ./src:/app
+      - ./:/app
     tty: true
 
