@@ -2,7 +2,7 @@
 
 # Setup
 
-## Docker developer
+## Docker user
 
 ```
 $ docker-compose up -d
