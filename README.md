@@ -1,5 +1,4 @@
-# static-website
-The Bancha project website
+# The Bancha project website
 
 # Setup
 
