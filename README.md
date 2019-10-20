@@ -1,5 +1,7 @@
 # The Bancha project website
 
+![Actions Status](https://github.com/bancha-project/static-website/workflows/deploy/badge.svg)
+
 https://bancha-project.firebaseapp.com
 
 # Setup
