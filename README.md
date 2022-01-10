@@ -36,3 +36,9 @@ $ firebase serve --host 0.0.0.0
 ```
 $ firebase deploy
 ```
+
+# Get Firebase token
+
+```shell
+$ firebase login:ci
+```
